@@ -1,7 +1,8 @@
 import os
 
 from emoji import emojize
-from token import TELETOKEN
+
+from settings.token import TELETOKEN
 
 TOKEN = TELETOKEN
 NAME_DB = 'products.sqlite'
